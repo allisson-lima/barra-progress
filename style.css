@@ -1,0 +1,22 @@
+.progress{
+    height: 10px;
+    background: rgba(0, 0, 0, 0);
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+.progress_highlight{
+    transition:  width 0.15s linear;
+    background: rgb(10, 25, 236);
+    height: 100%;
+    width: 0%;
+}
+.container{
+    width: 70%;
+    margin: 50px auto;
+}
+.container img{
+    width: 100%;
+}
